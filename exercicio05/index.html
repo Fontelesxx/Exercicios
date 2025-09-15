@@ -1,0 +1,107 @@
+<!DOCTYPE html><!--Tipo do documento-->
+<html lang="pt-br"> <!--Linguagem-->
+
+<head>
+    <meta charset="UTF-8"><!--Adiciona acentuações-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Utiliza 100% da tela-->
+    <title>Relatório</title> <!--Adiciona titulo na guia-->
+</head>  <!--Cabeça do codigo-->
+
+<body>  <!--Corpo do codigo(mostrado ao usuario)-->
+    <h1>Relatório de Vendas</h1><!--Titulo (possui hierarquias)-->
+    <table border="1" width="50%"><!--Cria uma tabela-->
+        <caption>Relatório - Renner</caption><!--Titulo da tabela-->
+        <thead><!--Cabeça da tabela-->
+            <tr><!--Linha da tabela-->
+                <th>Produto</th><!--Titulo na tabela-->
+                <th>Quantidade</th>
+                <th>Preço Unitário</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody><!--Corpo da tabela-->
+            <tr>
+                <td>Camisa</td><!--Dados da tabela-->
+                <td>5</td>
+                <td>R$50,00</td>
+                <td>R$250,00</td>
+            </tr>
+            <tr>
+                <td>Calça</td>
+                <td>2</td>
+                <td>R$80,00</td>
+                <td>R$160,00</td>
+            </tr>
+            <tr>
+                <td>Tênis</td>
+                <td>10</td>
+                <td>R$120,00</td>
+                <td>R$1200,00</td>
+            </tr>
+            <tr>
+                <td>Corta Vento</td>
+                <td>2</td>
+                <td>R$200,00</td>
+                <td>R$400,00</td>
+            </tr>
+            <tr>
+                <td>Boné</td>
+                <td>5</td>
+                <td>R$100,00</td>
+                <td>R$500,00</td>
+            </tr>
+        </tbody>
+        <tfoot><!--Rodapé-->
+            <tr>
+                <td colspan="3">Valor Total</td>
+                <td>R$2510,00</td>
+            </tr>
+
+        </tfoot>
+    </table>
+    <br><!--Quebra de linha-->
+    <br>
+    <br>
+
+    <table border="1" width="50%">
+        <thead>
+            <tr>
+                <th>Horário</th>
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>08:00 - 09:00</td>
+                <td rowspan="2">Matemática</td><!--Mesclar linha-->
+                <td>História</td>
+                <td>Português</td>
+            </tr>
+            <tr>
+                <td>09:00 - 10:00</td>
+                <td>Geografia</td>
+                <td>Inglês</td>
+            </tr>
+            <tr>
+                <td colspan="4">Intervalo</td><!--Mesclar coluna-->
+            </tr>
+            <tr>
+                <td>10:30 - 11:30</td>
+                <td>Ciências</td>
+                <td rowspan="2">Educação Física</td>
+                <td>Artes</td>
+            </tr>
+            <tr>
+                <td>11:30 - 12:30</td>
+                <td>Portugês</td>
+                <td>História</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</body>
+
+</html>
